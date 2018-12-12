@@ -16,20 +16,18 @@ Installation
 
         python setup.py develop
 
-3.  Add the following lines to ini file to the search setting section if they don’t exist:
-
-4.  Create default vocabularies
+3.  Create default vocabularies
 
         cd ckanext-bcgov-cli/ckanext/bcgov/cli/scripts
         $ python create_vocabs.py
 
-   Note: The following data files in `ckanext-bcgov/ckanext/bcgov/cli/scripts/data` is required:
+   Note: The following data files in `ckanext-bcgov-cli/ckanext/bcgov/cli/scripts/data` is required:
 
         edc-vocabs.json
 
-6.  Create organizations
+4.  Create organizations
 
-        $ cd ckanext-bcgov/ckanext/bcgov/cli/scripts
+        $ cd ckanext-bcgov-cli/ckanext/bcgov/cli/scripts
         $ python create_orgs.py
 
    Note: The following data files in `ckanext-bcgov/ckanext/bcgov/cli/scripts/data` is required:
@@ -37,6 +35,4 @@ Installation
         org_suborg_sector_mapping_forEDC.csv
 
 
-    Originally converted from SVN Source
-
-    Original Repo Copyright 2015, Province of British Columbia.
+    Original Repo Copyright 2018, Province of British Columbia.
